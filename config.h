@@ -2,17 +2,17 @@
 #define _BERRY_CONFIG_H_
 
 /* Define to the one symbol short name of this package. */
-#define @pkg_uname@_NAME	"@pkg_name@"
+#define BERRY_NAME	"berry"
 /* Define to the version of this package. */
-#define @pkg_uname@_VERSION	@pkg_version@
+#define BERRY_VERSION	0x017
 /* Define to the version string of this package. */
-#define @pkg_uname@_VERSTRING	"@pkg_verstr@"
+#define BERRY_VERSTRING	"0.1.7"
 /* Define to the address where bug reports for this package should be sent. */
-#define @pkg_uname@_BUGREPORT	"@pkg_bugreport@"
+#define BERRY_BUGREPORT	"Joshua L Ervin <joshue@uw.edu>"
 
-#define VERSION "@pkg_major@.@pkg_minor@.@pkg_build@"
+#define VERSION "0.1.7"
 #define __THIS_VERSION__ VERSION
-#define __WINDOW_MANAGER_NAME__ @pkg_uname@_NAME
+#define __WINDOW_MANAGER_NAME__ BERRY_NAME
 
 #define _DEFAULT_SOURCE 1
 #define _BSD_SOURCE 1
